@@ -50,13 +50,10 @@
         </div>
     </section>
 
-    <section id="Portfolio">
-        <div id="portfolio-pic-containter">
-
-        </div>
+    <section id="portfolio">
         <div id="portfolio-content-containter">
-            <nav id="profile-nav">
-                <ul>
+            <nav class="profile-nav">
+                <ul id="profile-list">
                     <li> <a href="#about">ABOUT ME</a></li>
                     <li> <a href="#skills">SKILLS</a></li>
                     <li> <a href="#experience">EXPERIENCE</a></li>
@@ -66,17 +63,59 @@
                 
             </div>
         </div>
+        <div id="portfolio-pic-containter">
+            <img src="assets/Portfolio-pic.jpg" alt="Portfolio Picture"
+            class="portfolio-pic">
+        </div>
     </section>
-
-    <section id="about">
-        <h1 id="about-title">My Story</h1>
-        <p id="about-story">
-            Inspired by a diverse educational journey, I've cultivated a 
-            unique blend of skills merging Electrical Engineering from 
-            Mangosuthu University of Technology with Computer Software 
-            Engineering from WeThinkCode. Driven by a passion for innovation 
-            and problem-solving, I strive to harness technology's potential to 
-            create meaningful solutions and contribute positively to the world.</p>
-    </section>
+    <div id="content">
+        <section id="about">
+            <h1 id="about-title">My Story</h1>
+            <p id="about-story">
+                Inspired by a diverse educational journey, I've cultivated a 
+                unique blend of skills merging Electrical Engineering from 
+                Mangosuthu University of Technology with Computer Software 
+                Engineering from WeThinkCode. Driven by a passion for innovation 
+                and problem-solving, I strive to harness technology's potential to 
+                create meaningful solutions and contribute positively to the world.</p>
+        </section>
+    
+        <section id="skills">
+            <span class="skill-catargory">Technical Skills: </span>
+            <ul>
+                <li>Proficient in programming languages such as Python, Java, and C++</li>
+                <li>Knowledge of software development frameworks and methodologies.</li>
+                <li>Experience with electrical engineering principles, including power 
+                    electronics and digital systems.</li>
+                <li>Familiarity with software testing and quality assurance processes.</li>
+                <li>Competence in using tools and technologies related to both fields, such
+                     as IDEs, circuit design software, and version control systems.</li>
+            </ul>
+        </section>
+    
+        <section id="experience">
+            <h2>Web Developer Intern | TECH-AINTERN</h2>
+            <em>Noida, India | 10 March 2024 - Present</em>
+            <h3>Projects:</h3>
+            <div id="experience-1">
+                <h3>Personal Website</h3>
+                <ul class="experience-description">
+                <li>
+                    Designed and developed a personal portfolio website from scratch using HTML, 
+                    CSS, and JavaScript.
+                </li>
+                <li>Incorporated interactive elements such as a dynamic navigation menu, 
+                    animated transitions, and a contact form for user engagement.
+                </li>
+                <li>Applied modern web development techniques to optimize site performance 
+                    and accessibility, including lazy loading of images and semantic HTML structure.
+                </li>
+            </ul>
+            </div>
+    
+        </section>
+    </div>
+    
 </body>
+<script src="src/script.js"></script>
 </html>

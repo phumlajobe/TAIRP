@@ -136,3 +136,50 @@ body{
 }
 
 
+/* PORFOLIO */
+
+#portfolio {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    background-color: rgb(10, 116, 216);
+    border-radius: 6px;
+}
+
+
+#portfolio, #profile-list {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+
+/* #portfolio-pic-containter{
+    width: 30%;
+} */
+
+#portfolio-content{
+    margin: 10px
+     
+}
+
+
+.portfolio-pic{
+    width: auto;
+    height: 400px;
+    border-radius: 6px;
+}
+
+
+
+#profile-list {
+    list-style: none;
+    gap: 1.5rem;
+}
+
+#profile-list a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+
