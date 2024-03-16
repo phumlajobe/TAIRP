@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phumla Sithole</title>
+    <link rel="stylesheet" href="src/index.css">
 </head>
 <body>
     <nav id="desktop-nav">
@@ -20,28 +21,28 @@
 
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/Profile-pic.jpg" alt="Phumla Sithole profile picture" width="400" 
-            height="400">
+            <img src="./assets/Profile-pic.jpg" alt="Phumla Sithole profile picture" id="profile-pic" >
         </div>
         <div class="section__text">
-            <p class="greeting"> Hello there, I'm</p>
+            <div id="greeting-container">
+                <p class="greeting"> Hello there, I am</p>
+            </div>
             <h1 class="title"> Phumla Sithole <br> Software Developer</h1>
             <p class="intoduction"> 
                 Welcome to my digital space, where curiosity meets creativity and innovation thrives.
-                <br> Explore with me as we embark on a journey of endless possibilities.
             </p>
             <div class="btn-container">
                 <button class="btn btn-color-1" onclick="window.open('./assets/CV_Phumla_Sithole.pdf')">
-                     Hire Me</button>
+                     Hire Me ➡️ </button>
                 <button class="btn btn-color-2" onclick="location.href='./#porfolio'"> <!-- About Me -->
-                     View Portfolio</button>
+                     View Portfolio ➡️ </button>
             </div>
             <div id="specials-container">
                 <!-- <img src="./assets/linkedin.png" style="border-radius: 100%;" alt="My linkedin profile" 
                 class="icon" onclick="location.href='https://linkedin.com/in/phumla-sithole'" >
                 <img src="./assets/github.png" alt="My Github profile"
                 class="icon github-icon" onclick="location.href='https://github.com/phumlajobe/CODSOFT'"> -->
-                <ul>
+                <ul id="contact-links">
                     <li><a href="https://linkedin.com/in/phumla-sithole"></a>LINKEDIN</li>
                     <li> <a href=""></a> GIT HUB</li>
                 </ul>
@@ -65,6 +66,17 @@
                 
             </div>
         </div>
+    </section>
+
+    <section id="about">
+        <h1 id="about-title">My Story</h1>
+        <p id="about-story">
+            Inspired by a diverse educational journey, I've cultivated a 
+            unique blend of skills merging Electrical Engineering from 
+            Mangosuthu University of Technology with Computer Software 
+            Engineering from WeThinkCode. Driven by a passion for innovation 
+            and problem-solving, I strive to harness technology's potential to 
+            create meaningful solutions and contribute positively to the world.</p>
     </section>
 </body>
 </html>
