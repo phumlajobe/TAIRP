@@ -46,3 +46,8 @@ displayContent("#about")
 function redirectToPortfolio() {
     window.location.href = "#portfolio";
 }
+
+let aboutElement = document.querySelector(".nav-links a[href='#about']");
+aboutElement.addEventListener("click",function(){
+    alert("Please click View Portfolio button ⬇️");
+});
