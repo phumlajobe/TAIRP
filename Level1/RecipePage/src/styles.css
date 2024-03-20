@@ -100,7 +100,7 @@ body {
     color: #2b5c14;
 }
 
-#recipe{
+.recipe{
     display: flex;
     width: 90%;
 }
