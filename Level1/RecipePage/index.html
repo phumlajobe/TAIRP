@@ -4,89 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Recipes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
     <header>
-        <h1>My Favorite Recipes</h1>
+        <div class="navigation">
+            <div class="logo">My Favorite Recipes</div>
+            <div>
+                <ul class="list-nav">
+                    <li> <a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recipe">Recipes</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
-        <section id="smoothie">
-            <div class="smoothie-container">
-                <h2>Blueberry Smoothie</h2>
+        <div class="home-container">
             
-            <!-- Ingredients Section -->
-            <div class="ingredients">
-                <h3>Ingredients</h3>
-                <ul>
-                    <li>1 cup ice cubes</li>
-                    <li>1 medium banana (approximately 6 inches long), sliced and frozen</li>
-                    <li>1/2 cup frozen blueberries (not thawed)</li>
-                    <li>1 container (8 ounces) nonfat, artificially sweetened vanilla yogurt</li>
-                    <li>1/4 cup skim milk</li>
-                </ul>
+        </div>
+
+        <section class="content">
+
+            <div class="content-setup">
+                <div class="image-container">
+                    <img src="Images/HomeImage.webp" alt="Home Page Image">
+                </div>
+                <div class="home-content"></div>
+            </div>
+            
+            <div id="home">
+                <p class="greetings">Hi There 🖐️</p>
+                    <h1>Welcome To recipe page</h1>
+                    <p class="intro">Explore our curated collection of mouthwatering recipes and 
+                        embark on a flavorful journey like no other</p>
+            </div>
+    
+            <div id="about">
+                <h2>Welcome to my page!</h2>
+    
+                We're passionate food enthusiasts dedicated 
+                to sharing mouthwatering recipes and culinary inspiration with fellow foodies. Our 
+                love for cooking drives us to explore diverse cuisines, experiment with unique flavors, 
+                and create delicious dishes that bring joy to the table. Join us on this flavorful journey 
+                as we share our favorite recipes, cooking tips, and stories from the kitchen. Let's savor 
+                every moment and celebrate the joy of cooking together!
+            </div>
+    
+            <div id="recipe">
+                <div class="recipe-container">
+                    <a href="#oats-pancakes"><img src="Images/banana-aots.webp" alt="Banana Aots"></a>
+                    <h2>Banana Aots Pancakes</h2>
+                </div>
+                <div class="recipe-container">
+                    <a href="#smoothie"><img src="Images/smoothie.webp" alt="Smoothie"></a>
+                    <h2>Blueberry Smoothie</h2>
+                </div>
             </div>
 
-            <!-- Instructions Section -->
-            <div class="instructions">
-                <h3>Instructions</h3>
-                <ol>
-                    <li>Step 1: <br>Place ice cubes at the bottom of the blender.</li>
-                    <li>Step 2: <br>Add banana slices, blueberries, yogurt, and milk. Cover 
-                        and blend in pulses until smooth, stopping frequently to stir down the ice. </li>
-                    <li>Step 2: <br>Serve right away. Freeze leftovers in an airtight, microwave-safe 
-                        container and thaw in the microwave until slushy.</li>
-                </ol>
-            </div>
-
-            <!-- Image Section -->
-            <div class="image">
-                <img src="Images/smoothie.webp" alt="Recipe Image">
-            </div>
-            </div>
+            <section id="smoothie">
+                <div class="smoothie-container">
+                    <h2>Blueberry Smoothie</h2>
+                
+                <!-- Ingredients Section -->
+                <div class="ingredients">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>1 cup ice cubes</li>
+                        <li>1 medium banana (approximately 6 inches long), sliced and frozen</li>
+                        <li>1/2 cup frozen blueberries (not thawed)</li>
+                        <li>1 container (8 ounces) nonfat, artificially sweetened vanilla yogurt</li>
+                        <li>1/4 cup skim milk</li>
+                    </ul>
+                </div>
+    
+                <!-- Instructions Section -->
+                <div class="instructions">
+                    <h3>Instructions</h3>
+                    <ol>
+                        <li>Step 1: <br>Place ice cubes at the bottom of the blender.</li>
+                        <li>Step 2: <br>Add banana slices, blueberries, yogurt, and milk. Cover 
+                            and blend in pulses until smooth, stopping frequently to stir down the ice. </li>
+                        <li>Step 2: <br>Serve right away. Freeze leftovers in an airtight, microwave-safe 
+                            container and thaw in the microwave until slushy.</li>
+                    </ol>
+                </div>
+    
+                <!-- Image Section -->
+                <div class="image">
+                    <img src="Images/smoothie.webp" alt="Recipe Image">
+                </div>
+                </div>
+            </section>
+    
+            <section id="oats-pancakes">
+                <div class="pancakes-container">
+                    <h2>Banana Oats Pancakes</h2>
+                
+                <!-- Ingredients Section -->
+                <div class="ingredients">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>2 ripe bananas</li>
+                        <li>1 1/2 cup of oats</li>
+                        <li>1 tsp of salt</li>
+                        <li>1 tsp of vanilla extract</li>
+                        <li>1/2 cup of milk of choice</li>
+                        <li>1 egg</li>
+                        <li>3 tsp of butter or oil to spray pan</li>
+                        <li>Brown sugar</li>
+                    </ul>
+                </div>
+    
+                <!-- Instructions Section -->
+                <div class="instructions">
+                    <h3>Instructions</h3>
+                    <ol>
+                        <li>Step 1: <br>Pulse oats in a blender for 5-10 seconds then place in large bowl.</li>
+                        <li>Step 2: <br>In a small bowl, mash banana with a fork until mixed in a semi-creamy 
+                            texture. Place to the side. </li>
+                        <li>Step 3: <br>Add vanilla extract, egg, brown sugar, salt, and milk in a separate bowl. 
+                            Add the combined mixture to the mashed banana in the large bowl. Stir well.</li>
+                        <li>Step 4: <br>Preheat skillet to medium-high heat.</li>
+                        <li>Step 5: <br>Scoop out banana oat mixture in the skillet. Cook each side until you see 
+                            the edges turn brown. </li>
+                    </ol>
+                </div>
+    
+                <!-- Image Section -->
+                <div class="image">
+                    <img src="Images/banana-aots.webp" alt="Recipe Image">
+                </div>
+                </div>
+            </section>
         </section>
 
-        <section id="oats-pancakes">
-            <div class="pancakes-container">
-                <h2>Banana Oats Pancakes</h2>
-            
-            <!-- Ingredients Section -->
-            <div class="ingredients">
-                <h3>Ingredients</h3>
-                <ul>
-                    <li>2 ripe bananas</li>
-                    <li>1 1/2 cup of oats</li>
-                    <li>1 tsp of salt</li>
-                    <li>1 tsp of vanilla extract</li>
-                    <li>1/2 cup of milk of choice</li>
-                    <li>1 egg</li>
-                    <li>3 tsp of butter or oil to spray pan</li>
-                    <li>Brown sugar</li>
-                </ul>
-            </div>
-
-            <!-- Instructions Section -->
-            <div class="instructions">
-                <h3>Instructions</h3>
-                <ol>
-                    <li>Step 1: <br>Pulse oats in a blender for 5-10 seconds then place in large bowl.</li>
-                    <li>Step 2: <br>In a small bowl, mash banana with a fork until mixed in a semi-creamy 
-                        texture. Place to the side. </li>
-                    <li>Step 3: <br>Add vanilla extract, egg, brown sugar, salt, and milk in a separate bowl. 
-                        Add the combined mixture to the mashed banana in the large bowl. Stir well.</li>
-                    <li>Step 4: <br>Preheat skillet to medium-high heat.</li>
-                    <li>Step 5: <br>Scoop out banana oat mixture in the skillet. Cook each side until you see 
-                        the edges turn brown. </li>
-                </ol>
-            </div>
-
-            <!-- Image Section -->
-            <div class="image">
-                <img src="Images/banana-aots.webp" alt="Recipe Image">
-            </div>
-            </div>
-        </section>
     </main>
 </body>
+<script src="src/script.js"></script>
 </html>

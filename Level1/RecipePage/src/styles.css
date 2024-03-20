@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif,Arial, Helvetica;
+    /* background-color: #ebf1e8; */
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.logo {
+    cursor: default;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    color: #205f03;
+}
+
+.list-nav{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.list-nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: #205f03;
+    transition: all 300ms ease-in-out;
+}
+
+.list-nav a:hover {
+    background-color: #caeeba;
+    border-radius: 6px;
+    color: #000214;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(2, 0, 10);
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #caeeba;
+    border-radius: 6px;
+}
+
+#about {
+    width: 70%;
+    background-color: #caeeba;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.image-container img{
+    width: 400px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.home-content {
+    padding: 40px;
+    margin-top: 4rem;
+}
+
+.smoothie-container{
+    background-color: rgb(255, 245, 237);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 20px;
+    color: #9e1a51;
+}
+
+.ingredients, 
+.instructions{
+    margin: 40px;
+}
+
+.image{
+    margin-top: 60px;
+}
+
+.image img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.pancakes-container{
+    background-color: #d1ecc5;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 20px;
+    color: #2b5c14;
+}
+
+#recipe{
+    display: flex;
+    width: 90%;
+}
+
+.recipe-container img {
+    width: 450px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.recipe-container {
+    padding: 15px;
+}

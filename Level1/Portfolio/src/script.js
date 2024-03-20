@@ -25,7 +25,6 @@ function displayContent(contentId){
 function findActiveLink(link){
     link.addEventListener("click", function(event) {
         event.preventDefault();
-        console.log(link.innerHTML)
     
         // Get the target content ID from the link's href attribute
         const targetContentId = link.getAttribute("href");
