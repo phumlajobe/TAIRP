@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+
+    <div class="slider-container">
+        <button class="slider-btn prev" onclick="changeSlide(-2)">&#10094; Previous</button>
+        <button class="slider-btn next" onclick="changeSlide(1)">Next &#10095;</button>
+        
+        <div class="slides">
+          <div class="slide">
+            <img src="Images/Image1.jpeg" alt="Image 1">
+          </div>
+          <div class="slide">
+            <img src="Images/Image2.jpeg" alt="Image 2">
+          </div>
+          <div class="slide">
+            <img src="Images/Image3.jpeg" alt="Image 3">
+          </div>
+          <div class="slide">
+              <img src="Images/Image4.jpeg" alt="Image 3">
+          </div>
+          <div class="slide">
+              <img src="Images/Image5.jpeg" alt="Image 3">
+          </div>
+          <!-- Add more images as needed -->
+        </div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Slider</title>
+<style>
+  .slider-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="slider-container">
+  <button class="slider-btn prev" onclick="changeSlide(-1)">&#10094; Previous</button>
+  <button class="slider-btn next" onclick="changeSlide(1)">Next &#10095;</button>
+  <div class="slides">
+    <div class="slide">
+      <img src="Images/Image1.jpeg" alt="Image 1">
+    </div>
+    <div class="slide">
+      <img src="Images/Image2.jpeg" alt="Image 2">
+    </div>
+    <div class="slide">
+      <img src="Images/Image3.jpeg" alt="Image 3">
+    </div>
+    <div class="slide">
+        <img src="Images/Image4.jpeg" alt="Image 3">
+    </div>
+    <div class="slide">
+        <img src="Images/Image5.jpeg" alt="Image 3">
+    </div>
+    <!-- Add more images as needed -->
+  <!-- </div>
+</div> -->
+
+<!-- <script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let slides = document.querySelectorAll('.slide');
+    console.log(slides);
+    if (slides.length === 0) return;
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none';  
+    }
+    slides[slideIndex-1].style.display = 'block';  
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+
+  function changeSlide(n) {
+    showSlides(slideIndex += n);
+  }
+</script> -->
+
+<!-- </body>
+</html> -->
